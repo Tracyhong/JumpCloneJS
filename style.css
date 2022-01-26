@@ -1,10 +1,12 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: Calibri,sans-serif;
+    color: white;
 }
 body{
     background-color: #2C394B;
-    color: white;
+
 }
 #container{
     width: 60%;
@@ -16,7 +18,7 @@ body{
     border-radius: 30px;
 }
 #rules{
-    font-family: Calibri,sans-serif;
+
     text-align: center;
 }
 #start{
