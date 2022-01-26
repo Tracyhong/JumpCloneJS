@@ -12,7 +12,7 @@ function start(){
         //if le block is under the character of if the character has jumped less than 20px, over than the block
         if(blockLeft<20 && blockLeft>-20 && characterTop>=130){
             block.style.animation = "none";
-            alert("Game Over. score: "+Math.floor(counter/100));
+            alert("Game Over. score: "+Math.floor(counter/100)+"\n Play again ? If not please refresh");
             counter=0;
             block.style.animation = "block 1s infinite linear";
         }else{
